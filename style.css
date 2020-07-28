@@ -1,0 +1,240 @@
+/*----------------
+  GENERAL STYLES
+----------------*/
+
+body {
+	font-family: 'Raleway', 'Sans Serif';
+}
+
+nav {
+	background-color: #ffbf00;
+}
+
+.extra-padding-x {
+	padding: 0% 7%;
+}
+
+.extra-padding-y {
+	padding: 6% 0%;
+}
+
+.hidden {
+	display: none;
+}
+
+.big-text {
+	color: #ffbf00;
+	font-size: 6em;
+	text-transform: uppercase;
+}
+
+.big-text-white {
+	color: #fff;
+	font-size: 6em;
+	text-transform: uppercase;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.yellow-bg {
+	background-color: #ffbf00;
+}
+
+.drk-yellow-bg {
+	background-color: #dc8b01;
+}
+
+.btn-color {
+	background-color: #dc8b01;
+	color: #fff;
+}
+
+.btn-lg, .btn-md {
+	border-radius: 0px;
+}
+
+.sample-bg {
+	background-color: lightblue;
+}
+
+/*----------------
+    JUMBOTRON
+----------------*/
+
+.jumbotron-fluid {
+	background-color: #ffbf00;
+}
+
+.jumbotron {
+	padding: 0;
+	margin: 0;
+}
+
+.jumbotron-logo {
+	height: 250px;
+}
+
+.display-4 {
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/*----------------
+  MAIN NAV MENU
+----------------*/
+
+.menu-btn {
+	position: absolute;
+	top: 30px;
+	right: 70px;
+	color: #fff;
+	z-index: 9;
+}
+
+.menu-link {
+	color: #fff;
+	text-decoration: none;
+}
+.menu-link:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+#menuOverlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right bottom, rgba(47,52,65,0.9) 50%, rgba(33,37,49,0.9) 50%);
+	z-index: 10;
+}
+
+.left-menu {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	text-align: left;
+}
+
+.right-menu {
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+	text-align: right;
+}
+
+.menu-text {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-size: 7vw;
+}
+
+.menu-text:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/*----------------
+    SERVICES
+----------------*/
+
+.service-text {
+	font-size: 2.4em;
+	font-weight: bold;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #dc8b01;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+#service1:hover .overlay {
+  height: 100%;
+}
+
+#service2:hover .overlay {
+  height: 100%;
+}
+
+#service3:hover .overlay {
+  height: 100%;
+}
+
+#service4:hover .overlay {
+  height: 100%;
+}
+
+#service5:hover .overlay {
+  height: 100%;
+}
+
+#service1 {
+	background-image: url(brand-and-identity.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	height: 50vh;
+}
+
+
+#service2 {
+	background-image: url(brand-and-identity.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	height: 50vh;
+}
+
+#service3 {
+	background-image: url(brand-and-identity.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	height: 50vh;
+}
+
+#service4 {
+	background-image: url(brand-and-identity.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	height: 50vh;
+}
+
+#service5 {
+	background-image: url(brand-and-identity.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	height: 50vh;
+}
+
+/*----------------
+    CLIENTS
+----------------*/
+
+
+
+
+/*----------------
+    CONTACT
+----------------*/
+
+.fa-envelope {
+	color: #ffbf00;
+}
+
+.fa-envelope:hover {
+	color: #ffbf00;
+	transition: .1s;
+	border-radius: 50%;
+	border: 5px solid #ffbf00;
+	padding: 20px;
+}
